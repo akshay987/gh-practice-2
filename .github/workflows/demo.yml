@@ -39,7 +39,7 @@ jobs:
       - name: Download archives
         uses: actions/download-artifact@v3
         with:
-          name: dist
+          name: test-files
       # to see the output context 
       - name: Output contents
         run: ls
